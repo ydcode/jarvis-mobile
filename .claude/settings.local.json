@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d//**)",
+      "Bash(timeout 60 adb:*)",
+      "Bash(timeout 10 adb:*)",
+      "Bash(timeout 5 adb:*)",
+      "Bash(pkill:*)",
+      "Bash(timeout 15 adb:*)",
+      "Bash(timeout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
