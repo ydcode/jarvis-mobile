@@ -37,7 +37,8 @@ fun ContactsScreen() {
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.surface,
                     titleContentColor = MaterialTheme.colorScheme.onSurface
-                )
+                ),
+                windowInsets = WindowInsets(0, 0, 0, 0)  // 移除所有内边距
             )
         }
     ) { paddingValues ->
